@@ -1,6 +1,7 @@
 import React from 'react';
-import './Cards.css';
+import './css/Cards.css';
 import CardItem from './CardItem';
+import UKC from './events/UKC'
 
 function Cards() {
   return (
@@ -14,13 +15,13 @@ function Cards() {
               src='images/img-9.jpg'
               text='Pursuing Global Health and Sustainability The US-KOREA Conference on Science, Technology, and Entrepreneurship (UKC)'
               label='UKC'
-              path='/activities'
+              path='/ukc'
             />
             <CardItem
               src='images/img-2.jpg'
               text='National Math & Science Competition (NMSC)'
               label='NMSC'
-              path='/activities'
+              path='/nmsc'
             />
           </ul>
           <ul className='cards__items'>
@@ -28,13 +29,13 @@ function Cards() {
               src='images/img-3.jpg'
               text='KSEA Science Concert'
               label='Science Concert'
-              path='/activities'
+              path='/science-concert'
             />
             <CardItem
               src='images/img-4.jpg'
               text='Youth STEM Video Contest'
               label='UCC'
-              path='/activities'
+              path='/ucc'
             />
             <CardItem
               src='images/img-8.jpg'
