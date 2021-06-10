@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "gems8fc60fb1",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/items"
+        }
+    ],
+    "resourceName": "gemsREST",
+    "apiName": "gemsREST",
+    "functionArns": [
+        {
+            "lambdaFunction": "gems8fc60fb1"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-gems-dev-200922-authRole",
+        "unAuthRoleName": "amplify-gems-dev-200922-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "gems8fc60fb1",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

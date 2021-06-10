@@ -1,0 +1,32 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-gems-dev-200922-authRole",
+            "UnauthRoleArn": "arn:aws:iam::433806234262:role/amplify-gems-dev-200922-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::433806234262:role/amplify-gems-dev-200922-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-gems-dev-200922-deployment",
+            "UnauthRoleName": "amplify-gems-dev-200922-unauthRole",
+            "StackName": "amplify-gems-dev-200922",
+            "StackId": "arn:aws:cloudformation:us-east-1:433806234262:stack/amplify-gems-dev-200922/43f8f320-c999-11eb-9c74-0aedc5aecc23",
+            "AmplifyAppId": "d9ao4ku0tb2sh"
+        },
+        "categories": {
+            "auth": {
+                "gems09f5af86": {}
+            },
+            "function": {
+                "gems8fc60fb1": {
+                    "deploymentBucketName": "amplify-gems-dev-200922-deployment",
+                    "s3Key": "amplify-builds/gems8fc60fb1-716f653436714937516d-build.zip"
+                }
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d9ao4ku0tb2sh",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}

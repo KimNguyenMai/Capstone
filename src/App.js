@@ -10,7 +10,8 @@ import UKC from './components/events/UKC';
 import NMSC from './components/events/NMSC';
 import SciCon from './components/events/Science_concert';
 import UCC from './components/events/UCC';
-import Auth from '@aws-amplify/auth';
+import Edit from './components/pages/Edit';
+// import Auth from '@aws-amplify/auth';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path='/nmsc' component={NMSC} />
           <Route path='/science-concert' component={SciCon} />
           <Route path='/ucc' component={UCC} />
+          <Route path='/edit' component={Edit} />
         </Switch>
       </Router>
     </>

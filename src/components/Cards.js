@@ -41,7 +41,7 @@ function Cards() {
               src='images/img-8.jpg'
               text='Become KSEA Member'
               label='Memebership'
-              path='/sign-up'
+              path='/login'
             />
           </ul>
         </div>
